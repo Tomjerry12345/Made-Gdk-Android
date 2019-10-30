@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="16dp">
+
+	<ImageView
+		android:id="@+id/img_photo"
+		android:layout_width="100dp"
+		android:layout_height="150dp"
+		android:scaleType="fitXY"/>
+
+	<TextView
+		android:id="@+id/tv_judul"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="15dp"
+		android:layout_toEndOf="@id/img_photo"
+		android:text="@string/judul_film"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:id="@+id/rilis"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tv_judul"
+		android:layout_marginStart="15dp"
+		android:layout_marginTop="20dp"
+		android:layout_toRightOf="@id/img_photo"
+		android:ellipsize="end"
+		android:maxLines="3"
+		android:text="@string/tanggal_rilis"
+		android:textSize="12sp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="@string/genre"
+		android:layout_below="@id/rilis"
+		android:layout_toRightOf="@id/img_photo"
+		android:layout_marginTop="20dp"
+		android:layout_marginStart="15dp"
+		android:id="@+id/genre"
+		android:textSize="12sp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="@string/durasi"
+		android:layout_below="@id/genre"
+		android:layout_toRightOf="@id/img_photo"
+		android:layout_marginTop="20dp"
+		android:layout_marginStart="15dp"
+		android:id="@+id/durasi"
+		android:textSize="12sp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="Small Text"
+		android:layout_toRightOf="@id/rilis"
+		android:layout_below="@id/tv_judul"
+		android:layout_marginTop="22dp"
+		android:layout_marginStart="5dp"
+		android:id="@+id/tv_rilis"
+		android:textSize="10sp"
+		android:textColor="#000000"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="Small Text"
+		android:layout_below="@id/rilis"
+		android:layout_toRightOf="@id/genre"
+		android:layout_marginTop="22dp"
+		android:layout_marginStart="5dp"
+		android:id="@+id/tv_genre"
+		android:textSize="10sp"
+		android:textColor="#000000"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="Small Text"
+		android:layout_below="@id/genre"
+		android:layout_toRightOf="@id/durasi"
+		android:layout_marginTop="22dp"
+		android:layout_marginStart="5dp"
+		android:id="@+id/tv_durasi"
+		android:textSize="10sp"
+		android:textColor="#000000"
+		android:gravity="center"/>
+
+</RelativeLayout>
+

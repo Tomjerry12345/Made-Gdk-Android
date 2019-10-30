@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Submission 1</string>
+    <string name="hello_world">Hello world!</string>
+
+	<string name="judul_film">Judul Film</string>
+	<string name="deskripsi">Deskripsi</string>
+
+	<string name="tanggal_rilis">Tanggal Rilis :</string>
+	<string name="genre">Genre :</string>
+	<string name="durasi">Durasi :</string>
+	<string name="overview">Overview</string>
+	<string name="popular">Popular</string>
+
+	<string-array name="data_judul">
+        <item>Aquaman</item>
+		<item>Avengers Infinity Wars</item>
+		<item>Bumblebee</item>
+		<item>DeadPool</item>
+		<item>How to Train Your Dragon: The Hidden World</item>
+		<item>Dragon Ball Super: Broly</item>
+		<item>Preman Pensiun</item>
+		<item>Robin Hood</item>
+		<item>Spiderman</item>
+		<item>Venom</item>
+    </string-array>
+
+	<string-array name="data_rilis">
+        <item> 26 Maret 2019</item>
+		<item>14 Agustus 2018</item>
+		<item> 2 April 2019</item>
+		<item>10 Mei 2018</item>
+		<item>21 Mei 2019</item>
+		<item>16 Januari 2019</item>
+		<item>17 Januari 2019</item>
+		<item>5 Februari 2019</item>
+		<item>19 Maret 2019</item>
+		<item>18 Desember 2018</item>
+    </string-array>
+
+	<string-array name="data_genre">
+        <item>Action , Adventure , Fantasy</item>
+		<item>Action , Adventure , Fantasy</item>
+		<item>Action , Adventure , Fiksi Ilmiah</item>
+		<item>Action , Adventure , Fiksi Ilmiah</item>
+		<item>Animation , Family , Adventure</item>
+		<item>Animasi , Adventure , Comedy , Fiksi Ilmiah</item>
+		<item>Drama , Komedi</item>
+		<item>Action. , Adventure , Thriller</item>
+		<item>Action , Adventure , Animation , Fiksi Ilmiah , Comedy</item>
+		<item>Action , Fiksi Ilmiah</item>
+    </string-array>
+
+	<string-array name="data_durasi">
+        <item>2 Jam 24 Menit</item>
+		<item>2 Jam 32 Menit</item>
+		<item>1 Jam 53 Menit</item>
+		<item>1 Jam 48 Menit</item>
+		<item>1 Jam 44 Menit</item>
+		<item>1 Jam 41 Menit</item>
+		<item>1 Jam 34 Menit</item>
+		<item>1 Jam 56 Menit</item>
+		<item>1 Jam 57 Menit</item>
+		<item>1 Jam 52 Menit</item>
+    </string-array>
+
+	<array name="data_photo">
+        <item>@drawable/poster_aquaman</item>
+		<item>@drawable/poster_avengerinfinity</item>
+		<item>@drawable/poster_bumblebee</item>
+		<item>@drawable/poster_deadpool</item>
+		<item>@drawable/poster_dragon</item>
+		<item>@drawable/poster_dragonball</item>
+		<item>@drawable/poster_preman</item>
+		<item>@drawable/poster_robinhood</item>
+		<item>@drawable/poster_spiderman</item>
+		<item>@drawable/poster_venom</item>
+    </array>
+
+	<string-array name="data_deskripsi">
+		<item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, saudara tiri manusia setengah manusia Orm dan pewaris sejati takhta.</item>
+		<item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+		<item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+		<item>Deadpool menceritakan kisah asal-usul mantan anggota Pasukan Khusus yang berubah menjadi tentara bayaran Wade Wilson, yang setelah menjadi sasaran percobaan jahat yang membuatnya memiliki kekuatan penyembuhan yang dipercepat, mengadopsi Deadpool alter ego. Dipersenjatai dengan kemampuan barunya dan selera humornya yang gelap dan berputar-putar, Deadpool memburu pria yang hampir menghancurkan hidupnya.</item>
+		<item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless tentang pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+		<item>Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Lalu suatu hari, Goku dan Vegeta dihadapkan pada seorang Saiyan bernama Broly yang belum pernah mereka lihat sebelumnya. Orang-orang Saiyan seharusnya hampir sepenuhnya musnah dalam kehancuran Planet Vegeta, jadi apa yang dilakukan orang ini di Bumi? Pertemuan antara tiga Saiyan yang telah mengikuti takdir yang sangat berbeda ini berubah menjadi pertempuran yang luar biasa, dengan bahkan Frieza (kembali dari Neraka) terperangkap dalam campuran.</item>
+		<item>mengambil setting waktu tiga tahun setelah meninggalnya Kang Bahar. Setelah beliau meninggal, kepemimpinan para preman pensiun ini dipegang oleh Kang Mus (Epy Kusnandar). Di masa pensiun mereka memutuskan untuk berbisnis. Bisnis yang bagus tapi bukan bisnis yang baik, kalau kata Kang Mus. Bikin bingung juga ya.</item>
+		<item>Seorang pejuang perang yang keras dan komandan Moornya melakukan pemberontakan yang berani melawan mahkota Inggris yang korup.</item>
+		<item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+		<item>Jurnalis investigasi Eddie Brock mencoba untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+	</string-array>
+
+</resources>
