@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_movie"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie_black_24dp"
+        android:title="Film"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_tv"
+        android:enabled="true"
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:title="Tv"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_favorie"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Favorite"
+        app:showAsAction="ifRoom" />
+
+</menu>

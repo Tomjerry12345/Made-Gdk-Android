@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aplication List Film</string>
+
+	<string name="title">Judul</string>
+	<string name="release">Rilis</string>
+	<string name="vote_average">Rata-rata  : </string>
+	<string name="vote_count">Total suara  :  </string>
+	<string name="popularity">Populer : </string>
+	<string name="overview">Ringkasan : </string>
+
+	<string name="ganti_bahasa">Ganti Bahasa</string>
+
+	<string name="release_reminder">Pengingat Rilis</string>
+	<string name="reminder_showing_the_movie_that_released_today">Pengingat menunjukkan film yang dirilis hari ini</string>
+	<string name="daily_reminder">Pengingat Harian</string>
+	<string name="reminder_for_return_to_app">Pengingat untuk kembali ke aplikasi</string>
+
+	<string name="ganti_reminder">Ganti Reminder</string>
+
+
+</resources>

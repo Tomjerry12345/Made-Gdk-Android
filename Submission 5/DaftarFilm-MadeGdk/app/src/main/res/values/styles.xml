@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/redDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+	<style name="RatingBar" parent="Theme.AppCompat">  
+		<item name="colorControlNormal">@color/blue2</item>
+	</style>
+
+    <style name="CustomText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomText.Small" parent="CustomText">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="CustomText.Grey" parent="CustomText">
+        <item name="android:textColor">@color/colorSecundaryText</item>
+    </style>
+</resources>

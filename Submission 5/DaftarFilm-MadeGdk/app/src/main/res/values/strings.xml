@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplication List Film</string>
+
+	<string name="title">Title</string>
+	<string name="release">Title</string>
+	<string name="vote_average">Vote Average    :  </string>
+	<string name="vote_count">Vote Count       :  </string>
+	<string name="popularity">Popularity         : </string>
+	<string name="overview">Overview           : </string>
+	
+	<string name="ganti_bahasa">Switch Language</string>
+
+	<string name="shared_preferences" translatable="false">shared preferences</string>
+
+	<string name="state_release" translatable="false">state release</string>
+	<string name="state_daily" translatable="false">state daily</string>
+
+	<string name="release_reminder">Release Reminder</string>
+	<string name="reminder_showing_the_movie_that_released_today">Reminder showing the movie that released today</string>
+	<string name="daily_reminder">Daily Reminder</string>
+	<string name="reminder_for_return_to_app">Reminder for return to app</string>
+	<string name="ganti_reminder">Setting Reminder</string>
+
+	<string name="default_notification_channel_id" translatable="false">fcm_msg</string>
+	<string name="default_notification_channel_name" translatable="false">FCM</string>
+
+	<string name="appwidget_text" translatable="false">Favorite Movie</string>
+
+	<string name="empty_text" translatable="false">NO DATA</string>
+    <string name="more">More</string>
+
+</resources>

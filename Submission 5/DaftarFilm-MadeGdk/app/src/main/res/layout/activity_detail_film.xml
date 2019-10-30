@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#212020"
+	tools:layout_editor_absoluteX="8dp"
+	tools:layout_editor_absoluteY="8dp">
+
+	<android.support.constraint.ConstraintLayout
+
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#212020">
+
+		<ImageView
+			android:id="@+id/image"
+			android:layout_width="0dp"
+			android:layout_height="170dp"
+			android:scaleType="fitXY"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<CheckBox
+			android:id="@+id/cb_fav"
+			android:layout_width="24dp"
+			android:layout_height="24dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="@drawable/fav_selector"
+			android:button="@null"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageView
+			android:id="@+id/image1"
+			android:layout_width="90dp"
+			android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+			android:layout_height="100dp"
+			android:layout_marginTop="5dp"
+			app:layout_constraintHorizontal_bias="0.5"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/image" />
+
+		<android.support.v7.widget.AppCompatRatingBar
+			android:id="@+id/rating_bar"
+			style="?android:attr/ratingBarStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:clickable="false"
+			android:focusable="false"
+			android:focusableInTouchMode="false"
+			android:isIndicator="true"
+			android:numStars="5"
+			android:rating="2.5"
+			android:stepSize="0.1"
+			android:theme="@style/RatingBar"
+			app:layout_constraintLeft_toLeftOf="@id/image1"
+			app:layout_constraintRight_toRightOf="@id/image1"
+			app:layout_constraintTop_toBottomOf="@id/image1" />
+
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/title"
+			android:textColor="#ffffff"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			app:layout_constraintLeft_toLeftOf="@id/rating_bar"
+			app:layout_constraintRight_toRightOf="@id/rating_bar"
+			app:layout_constraintTop_toBottomOf="@id/rating_bar" />
+
+		<TextView
+			android:id="@+id/release"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/release"
+			android:textColor="#ffffff"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			app:layout_constraintLeft_toLeftOf="@id/title"
+			app:layout_constraintRight_toRightOf="@id/title"
+			app:layout_constraintTop_toBottomOf="@id/title" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/vote_average"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:text="@string/vote_average"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/release" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/vote_average1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:text="Vote Average"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toEndOf="@+id/vote_average"
+			app:layout_constraintTop_toTopOf="@+id/vote_average" />
+
+	<TextView
+		android:textColor="#ffffff"
+		android:id="@+id/vote_count"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginRight="8dp"
+		android:text="@string/vote_count"
+		app:layout_constraintEnd_toEndOf="@+id/vote_average"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="@+id/vote_average"
+		app:layout_constraintTop_toBottomOf="@+id/vote_average" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/vote_count1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:text="Vote Count"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toEndOf="@+id/vote_count"
+			app:layout_constraintTop_toBottomOf="@+id/vote_average1" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/popularity"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:text=" Popularity"
+			app:layout_constraintEnd_toEndOf="@+id/vote_count1"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toEndOf="@+id/popularity1"
+			app:layout_constraintTop_toBottomOf="@+id/vote_count1" />
+
+	<TextView
+		android:textColor="#ffffff"
+		android:id="@+id/popularity1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="@string/popularity"
+		app:layout_constraintEnd_toEndOf="@+id/vote_count"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="@+id/vote_count"
+		app:layout_constraintTop_toBottomOf="@+id/vote_count" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/overview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:text="@string/overview"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="@+id/popularity1"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toStartOf="@+id/popularity1"
+			app:layout_constraintTop_toBottomOf="@+id/popularity1"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<TextView
+			android:textColor="#ffffff"
+			android:id="@+id/overview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:text="Overview"
+			
+			app:layout_constraintTop_toBottomOf="@+id/overview"/>
+
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,65 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginTop="40dp"
+	android:background="#212020">
+
+	<EditText
+		android:id="@+id/edt_search"
+		android:layout_width="300dp"
+		android:background="@drawable/background_text"
+		android:layout_height="40dp"
+		android:hint="@string/title"
+		android:paddingLeft="10dp"
+		android:maxLines="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_search"
+		android:layout_marginTop="10dp"
+		android:background="@color/putih"
+		android:src="@drawable/ic_search_black_24dp"
+		app:layout_constraintHorizontal_bias="0.900"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ProgressBar
+		android:id="@+id/progressBar"
+		style="?android:attr/progressBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="?attr/actionBarSize"
+		android:layout_weight="1"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/rcListFilm"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginTop="50dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/edt_search"
+		app:layout_constraintVertical_bias="1.0"
+		tools:layout_editor_absoluteX="-65dp" />
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/rcListSearch"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginTop="50dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/edt_search"
+		app:layout_constraintVertical_bias="1.0"
+		tools:layout_editor_absoluteX="-65dp" />
+
+</android.support.constraint.ConstraintLayout>
