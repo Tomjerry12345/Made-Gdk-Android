@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue2">#ff1c8adb</color>
+    <color name="putih">#fff</color>
+    <color name="hitam">#000</color>
+    <color name="red">#ec4141</color>
+	<color name="redDark">#CB2E23</color>
+
+    <color name="colorPrimaryText">#212121</color>
+</resources>
